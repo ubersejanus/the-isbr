@@ -1,11 +1,26 @@
----
-layout: default
-title: 404 Error&#58; File not found
-sitemap: false
----
-
-<div class="inner-container" style="text-align:center;">
-  <h1 style="padding-top:15%;font-size: 80px;">404</h1>
-  <h2>The page could not be found</h2>
-  <p>You might want to <a href="javascript:history.go(-1);">go back</a>, or visit <a href="/">the home page</a></p>
-</div>
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#4060A4">
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+    <link rel="icon" href="/favicon.ico">
+    <title>404 Error&#58; File not found</title>
+  </head>
+  <body>
+      <div style="margin:auto; margin-top:20px; text-align:center;">
+        <img src="images/beastroar-270.png">
+		<h1 style="font-size: 80px;">404</h1>
+		<h2>The page could not be found</h2>
+		<p>You might want to <a href="javascript:history.go(-1);">go back</a>, or visit <a href="/">the home page</a></p>
+      </div>
+	<script async src='http://www.google-analytics.com/analytics.js'></script>
+    <script>
+      var ga=ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-82094983-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
